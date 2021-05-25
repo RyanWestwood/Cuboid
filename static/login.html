@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Cuboid - Login</title>
+    <link href="./resources/css/style.css" rel="stylesheet" type="text/css"/>
+    <link rel="shortcut icon" href="./resources/images/icon.ico" type="image/x-icon">
+  	<link rel="icon" href="assets/icon.ico" type="image/x-icon">
+  </head>
+  <body>
+
+    <div class="fullscreen-container">
+        
+        <div class="container grey">            
+          <a href="index.html" class="logo-link">
+            <img src="./resources/images/logo.png" class="logo"></img>
+          </a>
+        </div>
+
+        <form action="/debug" method="POST">
+          <div class="container middle lead">
+              <div class="middle-align">
+                <label for="name"><b>Username</b></label>
+                <br>
+                <input type="text" id="name" name="name" maxlength="12" placeholder="Enter Username">
+                <br>
+                <label for="password"><b>Password</b></label>
+                <br>
+                <input type="password" id="password" name="password" maxlength="24" placeholder="Enter Password">
+                <br>
+                <button type="cancel" type="button" onclick="window.location='https://gameserver.ryanw011.repl.co/';return false;" class="width25">Cancel</button>
+                <button type="submit" class="width25">Login</button>
+            </div>
+          </div>
+        </form>
+  
+      </div>
+    
+  </body>
+</html>
